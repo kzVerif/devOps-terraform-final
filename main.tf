@@ -94,10 +94,9 @@ resource "aws_instance" "nodejs_server" {
 
               # 5. Create .env file
               cat <<EOT > .env
-              SECRET_KEY_SLIP2GO=NtV+IUStnWRj7b9ngwDAIKUm_PZ8As0l_W5SpnikJFI=
-              NEXTAUTH_SECRET=ksrv-betaVersion
-              DATABASE_URL="mysql://2QFBcvJ2XJD681X.root:timchFOjFarN4Nyn@gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/devOps?sslaccept=strict&connection_limit=5"
-              NEXT_PUBLIC_TURNSTILE_SITE_KEY=0x4AAAAAACBFFBiBs1Aq5a2W
+              SECRET_KEY_SLIP2GO=xxx
+              NEXTAUTH_SECRET=xxx
+              DATABASE_URL=xxx
               NEXTAUTH_URL=http://$PUBLIC_IP:3000
               EOT
 
